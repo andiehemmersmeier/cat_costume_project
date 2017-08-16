@@ -1,8 +1,85 @@
 body {
   margin: 0;
 }
-
-
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.875em;
+  color: #323232;
+}
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+}
+p {
+  font-family: 'PT Serif', serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232
+}
+a {
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: #f26522;
+}
+.footer {
+  background-color: #00897f;
+  height: 125px;
+  width: auto;
+}
+.nav h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #323232;
+}
+.nav-right p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: .9em;
+  color: #323232;
+}
+.footer h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: lightgray;
+  text-align: center;
+}
+.main h1 {
+  text-align: center;
+}
+.cat-images {
+  display: table;
+  margin: 0 auto;
+}
+.img-circle {
+  border-radius: 50%;
+  height: 250px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#cat-hat {
+  margin-right: 55px;
+}
+#cat-jack {
+  margin-left: 55px
+}
+.splash img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
