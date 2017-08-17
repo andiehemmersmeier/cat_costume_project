@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
 }
@@ -32,6 +33,18 @@ a {
   font-size: 1em;
   color: #f26522;
 }
+
+nav {
+  height: 80px;
+  width: auto;
+}
+.nav-left,
+.nav-right {
+  display: inline-block;
+}
+.nav-right p {
+
+}
 .footer {
   background-color: #00897f;
   height: 125px;
@@ -42,11 +55,37 @@ a {
   font-weight: bold;
   font-size: 1.5em;
   color: #323232;
+  padding-top: 20px;
 }
 .nav-right p {
   font-family: 'PT Sans', sans-serif;
   font-size: .9em;
   color: #323232;
+}
+.main-content{
+  margin-left: 510px;
+  margin-right: 510px;
+}
+.blurb h1 {
+  text-align: center;
+}
+.blurb h3 {
+  padding-bottom: 80px;
+}
+.columns {
+  background-color: #eeeeee;
+}
+#about-kat {
+  width: 250px;
+  padding: 30px;
+}
+#about-kat h2 {
+  padding-bottom: 25px;
+}
+#about-mavis {
+  width: 250px;
+  padding: 30px
+}
 }
 .footer h1 {
   font-family: "PT Sans Narrow", sans-serif;
