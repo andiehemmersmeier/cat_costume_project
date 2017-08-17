@@ -107,10 +107,12 @@ nav {
   margin-bottom: 80px;
 }
 #cat-hat {
+  margin-left: -100px;
+}
+#cat-sun {
+  margin-left: 55px;
   margin-right: 55px;
 }
-#cat-jack {
-  margin-left: 55px
 }
 .splash img {
   display: block;
