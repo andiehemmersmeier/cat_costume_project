@@ -38,62 +38,70 @@ nav {
   width: auto;
 }
 .nav-left,
-.nav-right {
+.nav-items {
   display: inline-block;
 }
-.nav-right p {
-  text-align: right;
-}
-.footer {
-  background-color: #00897f;
-  height: 125px;
-  width: auto;
-}
-.nav h1 {
+.nav-left h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   font-size: 1.5em;
   color: #323232;
-  padding-top: 20px;
+  padding-left: 30px;
+  float: left;
 }
-.nav-right p {
+.nav-items {
+  float: right;
+}
+.nav-items li {
   font-family: 'PT Sans', sans-serif;
   font-size: .9em;
   color: #323232;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+.bgd-gray .contact {
+  background-color: #eeeeee;
+  width: 1680px;
+  margin-left: -515px;
+  height: 550px;
 }
 .main-content{
-  margin-left: 510px;
-  margin-right: 510px;
+  margin-left: 515px;
+  margin-right: 515px;
+  background-color: white;
 }
 .blurb h1 {
   text-align: center;
+  margin-top: 80px;
 }
 .blurb h3 {
-  padding-bottom: 80px;
-}
-#about-kat {
-  width: 250px;
-  padding: 30px;
-  background-color: #eeeeee;
-  display: inline-block;
-}
-#about-kat h2 {
-  padding-bottom: 25px;
-}
-#about-mavis {
-  width: 250px;
-  padding: 30px;
-  background-color: #eeeeee;
-  display: inline-block;
-}
-.footer h1 {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: bold;
-  font-size: 1.25em;
-  color: lightgray;
-  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 80px;
 }
 .main h1 {
+  text-align: center;
+}
+.column-1 {
+  float: left;
+  width: 37%;
+}
+.column-2 {
+  float: right;
+  width: 37%;
+}
+#about-kat {
+  background-color: #eeeeee;
+  padding: 30px;
+}
+#about-mavis {
+  background-color: #eeeeee;
+  padding: 30px;
+}
+#about-kat h2 {
+  text-align: center;
+}
+#about-mavis h2 {
   text-align: center;
 }
 .cat-images {
@@ -113,12 +121,45 @@ nav {
   margin-left: 55px;
   margin-right: 55px;
 }
+.contact h1 {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+#get-in-touch {
+  background-color: white;
+  margin-left: 505px;
+  padding: 30px;
+  width: 250px;
+}
+#get-in-touch h2 {
+  text-align: center;
+}
+#contact-info {
+  background-color: white;
+  margin-right: 505px;
+  padding: 30px;
+  width: 250px;
 }
 .splash img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  margin-bottom: -25px;
+}
+.footer {
+  background-color: #00897f;
+  height: 125px;
+  width: auto;
+}
+.footer h1 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: lightgray;
+  text-align: center;
+  padding-top: 55px;
 }
 /* On devices wider than 660px */
 @media(min-width: 660px) {
