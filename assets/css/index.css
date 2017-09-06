@@ -117,11 +117,10 @@ img.cat-hero {
 }
 .img-circle {
   border-radius: 50%;
-  height: 250px;
 }
 #cat-sun {
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 3.27381%;
+  margin-right: 3.27381%;
 }
 .contact h1 {
   margin-bottom: 45px;
@@ -185,7 +184,34 @@ img.kat-map {
   padding-top: 55px;
 }
 /* On devices wider than 660px */
-@media(min-width: 660px) {
+@media(max-width: 480px) {
+    .blurb  {
+      width: 80%;
+    }
+    .cat-images {
+      justify-content: flex-end;
+      display: block;
+      margin-top: 0;
+      margin-bottom: 5%;
+    }
+    .column-1, .column-2{
+      text-align: center;
+    }
+    #about-kat, #about-mavis, #contact-info, #get-in-touch {
+      margin-bottom: 5%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #cat-sun {
+      padding: 5% 0 5% 0;
+    }
+    .bgd-gray {
+      padding: 5% 0 5% 0;
+    }
+    .contact h1 {
+      margin-bottom: 5%;
+    }
+  }
 }
 
 /* On devices wider than 940px */
