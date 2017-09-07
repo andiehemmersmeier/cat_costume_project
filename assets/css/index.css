@@ -53,8 +53,15 @@ a {
   margin-top: 15px;
   margin-left: 35px;
 }
+.splash {
+  overflow: hidden;
+  min-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 img.cat-hero {
-  display:
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -189,15 +196,20 @@ img.kat-map {
       width: 80%;
     }
     .cat-images {
-      justify-content: flex-end;
-      display: block;
+      display: flex;
+      flex-direction: column;
       margin-top: 0;
       margin-bottom: 5%;
     }
     .column-1, .column-2{
       text-align: center;
     }
-    #about-kat, #about-mavis, #contact-info, #get-in-touch {
+    #about-kat, #about-mavis {
+      margin-bottom: 5%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #contact-info, #get-in-touch {
       margin-bottom: 5%;
       margin-left: auto;
       margin-right: auto;
