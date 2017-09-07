@@ -55,7 +55,7 @@ a {
 }
 .splash {
   overflow: hidden;
-  min-width: 900px;
+  min-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -201,6 +201,10 @@ img.kat-map {
       margin-top: 0;
       margin-bottom: 5%;
     }
+    .columns {
+      background-color: #eeeeee;
+      margin-bottom: 5%;
+    }
     .column-1, .column-2{
       text-align: center;
     }
@@ -208,11 +212,16 @@ img.kat-map {
       margin-bottom: 5%;
       margin-left: auto;
       margin-right: auto;
+      width: 75%;
+      padding: 0;
     }
     #contact-info, #get-in-touch {
       margin-bottom: 5%;
       margin-left: auto;
       margin-right: auto;
+      width: 75%;
+      background-color: #eeeeee;
+      padding: 0;
     }
     #cat-sun {
       padding: 5% 0 5% 0;
