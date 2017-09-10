@@ -1,6 +1,6 @@
 
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 h1 {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -33,6 +33,9 @@ a {
   font-size: 1em;
   color: #f26522;
 }
+nav {
+  width: 100%;
+}
 .nav-left h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
@@ -59,6 +62,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  min-width: 75%;
 }
 img.cat-hero {
   display: block;
@@ -192,6 +196,25 @@ img.kat-map {
 }
 /* On devices wider than 660px */
 @media(max-width: 480px) {
+    .nav-left h1 {
+      display: block;
+      text-align: center;
+      padding-left: 0;
+      margin-left: 30%;
+    }
+    .nav-items {
+      display: none;
+    }
+    .cat-hero {
+      margin-left: 50%;
+      transform: translateX(-30%);
+      overflow: hidden;
+    }
+    .kat-map {
+      margin-left: 50%;
+      transform: translateX(-30%);
+      overflow: hidden;
+    }
     .blurb  {
       width: 80%;
     }
@@ -232,9 +255,70 @@ img.kat-map {
     .contact h1 {
       margin-bottom: 5%;
     }
+    #address-link {
+      padding-right: 0
+    }
+}
+@media(max-width: 870px) {
+  body {
+    overflow-x: hidden;
+  }
+  img.cat-hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .blurb {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-circle {
+    height: 200px;
   }
 }
+@media(max-width: 720px) {
+  .blurb {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #about-kat {
+    margin-bottom: 45px;
+  }
+  #about-mavis {
+    margin: 0;
+  }
 
-/* On devices wider than 940px */
-@media(min-width: 940px) {
+  #about-kat, #about-mavis {
+    float: none;
+    margin-right:0;
+    width:auto;
+    width: 50%;
+  }
+  .bgd-gray {
+    padding-top: 30px;
+  }
+  #get-in-touch, #contact-info {
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+  }
+  #get-in-touch h3 {
+    text-align: left;
+  }
+  #contact-info h3 {
+    text-align: left;
+  }
+  #address-link {
+    padding-right: 50px;
+  }
+  }
+
+
 }
