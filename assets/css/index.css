@@ -57,19 +57,11 @@ nav {
   margin-left: 35px;
 }
 .splash {
+  display: flex;
+  justify-content: center;
   overflow: hidden;
-  min-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  min-width: 75%;
-}
-img.cat-hero {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
   margin-bottom: 80px;
+  width: 100%;
 }
 .bgd-gray {
   background-color: #eeeeee;
@@ -174,28 +166,28 @@ img.cat-hero {
   margin-top: -50px;
   padding-right: 30px;
 }
-img.kat-map {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#kat-map {
+  margin-bottom: 0;
   width: 100%;
-  margin-bottom: -25px;
 }
-.footer {
+footer {
   background-color: #00897f;
   height: 125px;
   width: 100%;
 }
-.footer h1 {
+footer h1 {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: bold;
   font-size: 1.25em;
   color: lightgray;
-  text-align: center;
-  padding-top: 55px;
 }
-/* On devices wider than 660px */
-@media(max-width: 480px) {
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 510px) {
     .nav-left h1 {
       display: block;
       text-align: center;
@@ -206,13 +198,9 @@ img.kat-map {
       display: none;
     }
     .cat-hero {
-      margin-left: 50%;
-      transform: translateX(-30%);
       overflow: hidden;
     }
     .kat-map {
-      margin-left: 50%;
-      transform: translateX(-30%);
       overflow: hidden;
     }
     .blurb  {
@@ -256,7 +244,11 @@ img.kat-map {
       margin-bottom: 5%;
     }
     #address-link {
-      padding-right: 0
+      padding-top: 35px;
+    }
+
+    }
+
     }
 }
 @media(max-width: 870px) {
