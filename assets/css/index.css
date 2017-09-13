@@ -193,15 +193,17 @@ footer {
   align-items: center;
 }
 
-@media(max-width: 510px) {
-    .nav-left h1 {
-      display: block;
-      text-align: center;
-      padding-left: 0;
-      margin-left: 30%;
+@media(max-width: 780px) {
+    .nav-left {
+      display: flex;
+      justify-content: center;
+      align-content: center;
     }
-    .nav-items {
-      display: none;
+    .nav {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
     }
     .cat-hero {
       overflow: hidden;
@@ -240,32 +242,46 @@ footer {
       background-color: #eeeeee;
       padding: 0;
     }
+    #get-in-touch h3 {
+      text-align: center;
+    }
+    #contact-info h3 {
+      text-align: center;
+    }
     #cat-sun {
       padding: 5% 0 5% 0;
     }
     .bgd-gray {
       padding: 5% 0 5% 0;
     }
+    #get-in-touch, #contact-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     .contact h1 {
       margin-bottom: 5%;
     }
     #address-link {
       padding-top: 35px;
+      text-align: center;
+      clear: both;
+      padding-right: 0;
     }
 
     }
 
     }
 }
-@media(max-width: 870px) {
+@media(max-width: 840px) {
   body {
     overflow-x: hidden;
   }
-  img.cat-hero {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.cat-images {
+  display:flex;
+  flex-direction: column;
+}
   }
   .blurb {
     width: 70%;
@@ -275,48 +291,4 @@ footer {
   .img-circle {
     height: 200px;
   }
-}
-@media(max-width: 720px) {
-  .blurb {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #about-kat {
-    margin-bottom: 45px;
-  }
-  #about-mavis {
-    margin: 0;
-  }
-
-  #about-kat, #about-mavis {
-    float: none;
-    margin-right:0;
-    width:auto;
-    width: 50%;
-  }
-  .bgd-gray {
-    padding-top: 30px;
-  }
-  #get-in-touch, #contact-info {
-    margin-bottom: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-    background-color: white;
-    padding: 30px;
-  }
-  #get-in-touch h3 {
-    text-align: left;
-  }
-  #contact-info h3 {
-    text-align: left;
-  }
-  #address-link {
-    padding-right: 50px;
-  }
-  }
-
-
 }
